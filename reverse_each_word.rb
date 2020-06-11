@@ -1,5 +1,4 @@
 def reverse_each_word(sentence)
-  answer=""
+  answer=[]
   split_sentence=sentence.split
-  sentence.each do |x|
-  
+  split_sentence.each {|x| answer<<x.reverse}
